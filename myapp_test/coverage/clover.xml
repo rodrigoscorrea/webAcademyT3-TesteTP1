@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1716646054932" clover="3.2.0">
+  <project timestamp="1716646054933" name="All files">
+    <metrics statements="23" coveredstatements="22" conditionals="18" coveredconditionals="17" methods="3" coveredmethods="3" elements="44" coveredelements="42" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
+    <file name="validations.js" path="/home/rodrigo/Área de Trabalho/FACULDADE/WA/webAcademyT3-TesteTP1/myapp_test/src/utils/validations.js">
+      <metrics statements="23" coveredstatements="22" conditionals="18" coveredconditionals="17" methods="3" coveredmethods="3"/>
+      <line num="8" count="4" type="cond" truecount="3" falsecount="1"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="32" count="6" type="stmt"/>
+      <line num="40" count="6" type="stmt"/>
+      <line num="41" count="6" type="stmt"/>
+      <line num="42" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="43" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="46" count="3" type="stmt"/>
+      <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="66" count="4" type="stmt"/>
+      <line num="67" count="4" type="stmt"/>
+      <line num="68" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="69" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="70" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="72" count="5" type="stmt"/>
+      <line num="74" count="1" type="stmt"/>
+      <line num="77" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
