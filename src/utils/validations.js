@@ -37,11 +37,11 @@ function verifyStockAvailability(productType, qty) {
     book: 0,
   };
   //valida as entradads
+  if(typeof productType !== "string") return false;
   const productNames = Object.keys(stock);
   const isPresent = productNames.indexOf(productType);
   if(isPresent === -1) return false;
   if(qty <= 0) return false;
-
   //checa disponibilidade do produto
   const availableStock = stock[productType];
   if (availableStock === 0) return false;

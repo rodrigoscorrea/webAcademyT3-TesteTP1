@@ -11,6 +11,18 @@ describe("firstName()", ()=> {
         expect(result).toBe("Fulano");
     });
 
+    it("deveria retornar o primeiro nome quando o nome completo fosse fornecido com espaço no final", () => {
+        const fullName = "Fulano de Tal ";
+        const result = firstName(fullName);
+        expect(result).toBe("Fulano");
+    });
+
+    it("deveria retornar o primeiro nome quando o nome completo fosse fornecido com espaço no ", () => {
+        const fullName = "Fulano de Tal ";
+        const result = firstName(fullName);
+        expect(result).toBe("Fulano");
+    });
+
     it("deveria retornar o mesmo nome quando não houver espaços em branco", () => {
         const name = "Fulano";
         const result = firstName(name);
@@ -64,6 +76,12 @@ describe("verifyStockAvailability", ()=>{
     it("deve retornar falso se o uma string for passada via parâmetro para a quantidade", ()=>{
         const productType = "plane"
         const qty = "oi"
+        const result = verifyStockAvailability(productType, qty)
+        expect(result).toBe(false)
+    })
+    it("deve retornar falso se algo diferente de uma string for passado via parâmetro para o produto", ()=>{
+        const productType = 12
+        const qty = 5
         const result = verifyStockAvailability(productType, qty)
         expect(result).toBe(false)
     })
